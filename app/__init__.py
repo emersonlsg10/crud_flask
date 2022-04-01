@@ -1,8 +1,6 @@
 import os
-from crypt import methods
-from flask import Flask, Response, request
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-import mysql.connector
 import json
 
 def create_app(test_config=None):
